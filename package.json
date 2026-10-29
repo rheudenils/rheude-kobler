@@ -1,0 +1,19 @@
+{
+  "name": "rheude-kobler",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "lokal": "node scripts/build.mjs && npx -y -p node@22 -- node node_modules/wrangler/bin/wrangler.js d1 migrations apply rheude-kobler-termine --local && npx -y -p node@22 -- node node_modules/wrangler/bin/wrangler.js dev --port 8787",
+    "cloudflare-anmelden": "npx -y -p node@22 -- node node_modules/wrangler/bin/wrangler.js login",
+    "datenbank-anlegen": "npx -y -p node@22 -- node node_modules/wrangler/bin/wrangler.js d1 create rheude-kobler-termine",
+    "datenbank-einrichten": "npx -y -p node@22 -- node node_modules/wrangler/bin/wrangler.js d1 migrations apply rheude-kobler-termine --remote",
+    "geheimnis": "npx -y -p node@22 -- node node_modules/wrangler/bin/wrangler.js secret put",
+    "online": "npx -y -p node@22 -- node node_modules/wrangler/bin/wrangler.js deploy",
+    "protokoll": "npx -y -p node@22 -- node node_modules/wrangler/bin/wrangler.js tail",
+    "wrangler": "npx -y -p node@22 -- node node_modules/wrangler/bin/wrangler.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.155.0"
+  }
+}

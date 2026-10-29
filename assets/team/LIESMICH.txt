@@ -1,0 +1,4 @@
+TEAMFOTOS (Hochformat 3:4, Gesicht im oberen Drittel)
+  anne-rheude.jpg   Porträt Dr. med. Anne Rheude
+Die Porträts von Nils Rheude (assets/rheude-neu.jpg) und Niklas Kobler
+(assets/kobler.jpg) sind bereits eingebunden – zum Tauschen einfach ersetzen.

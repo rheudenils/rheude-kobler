@@ -1,0 +1,14 @@
+.DS_Store
+assets/.DS_Store
+
+
+dist/
+node_modules/
+*.tgz
+
+# Cloudflare lokal
+.wrangler/
+.dev.vars
+
+# Interne Unterlagen (nicht veröffentlichen)
+intern/

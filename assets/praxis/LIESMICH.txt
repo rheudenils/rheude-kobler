@@ -1,0 +1,6 @@
+PRAXISFOTO – einfach mit genau diesem Dateinamen hier ablegen.
+Fehlt das Foto, zeigt die Website an der Stelle einen Platzhalter.
+
+  hero.jpg   Großes Bild oben rechts im Bogen (Hochformat 4:5)
+
+Tipp: ca. 1200 px breit, als JPG mit ~80 % Qualität (unter 400 KB).
